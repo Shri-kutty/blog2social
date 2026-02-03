@@ -1,15 +1,20 @@
 
-# Step 1: Install the necessary dependencies.
-npm install
+# RepurposeAI
 
-# Step 2: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+RepurposeAI is an AI-powered content repurposing tool that transforms your blog content into platform-optimized social media posts, summaries, hashtags, and more.
 
+## Features
 
-## What technologies are used for this project?
+- Paste your blog content and generate:
+  - Blog summary
+  - LinkedIn post
+  - Twitter/X post
+  - Hashtags
+  - Style justification
+- History panel for previous generations
+- Modern, responsive UI
 
-This project is built with:
+## Tech Stack
 
 - Vite
 - TypeScript
@@ -17,14 +22,17 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+1. Install dependencies:
+	```sh
+	npm install
+	```
+2. Start the development server:
+	```sh
+	npm run dev
+	```
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open source and available under the MIT License.
